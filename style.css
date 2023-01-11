@@ -1,0 +1,36 @@
+section {
+    display: flex;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0A6CA;
+}
+
+/* Excercise 1
+.circle {
+    background-color: #FFD166;
+} 
+*/
+
+/* Exercise 2
+main>.circle {
+    background-color: #FFD166;
+}
+ */
+
+/* Exercise 3 
+div + .circle{
+    background-color: #B8EBD0;
+    margin-left: 20px;
+ }  
+*/
+
+div ~ span  {
+    background-color: #B8EBD0;
+ }
